@@ -1,5 +1,19 @@
-opencv-python>=4.7.0
+# Core dependencies
 numpy>=1.23.0
-ultralytics>=8.0.100
+opencv-python>=4.7.0
+
+# YOLOv11 (via Ultralytics)
+ultralytics>=11.0.0
+
+# DeepSORT for tracking
 deep_sort_realtime>=1.3.1
+
+# Roboflow dataset integration (training pipeline)
+roboflow>=1.0.0
+
+# PyTorch (required by ultralytics, for FP16/GPU)
 torch>=2.0.0
+
+# Optional extras
+# If you want tensorboard logging:
+tensorboard>=2.12.0
