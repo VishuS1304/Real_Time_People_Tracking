@@ -15,7 +15,7 @@ End‑to‑end pipeline for custom person detection using Roboflow and Ultralyti
 
 ```bash
 people-tracking-yolov8/
-├── train_person_yolov11.py     # Download + train script
+├── count_number_of_people.ipynb  # Download + train script
 ├── yolov11_roi_tracker.py      # Main tracking script
 ├── data.yaml                   # Roboflow dataset config
 ├── best3.pt                    # YOLOv8 trained model weights
